@@ -1,0 +1,177 @@
+/* Reset de margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo da barra de navegação */
+.tab {
+    background-color: #A91528 !important;
+}
+
+#navbar_marca {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    font-size: 30px;
+}
+
+#logo img {
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#menu {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu img {
+    width: 40px;
+}
+
+/* Estilo para a área de outras opções */
+.outras_opcoes {
+    margin-top: 20px; /* Espaço superior */
+    text-align: center; /* Centraliza os links */
+}
+
+/* Estilo para os links dentro da área de outras opções */
+.outras_opcoes a {
+    display: inline-block; /* Faz com que os links se comportem como blocos */
+    margin: 0 10px; /* Margem entre os links */
+    padding: 5px 10px; /* Espaçamento interno */
+    text-decoration: none; /* Remove sublinhado padrão dos links */
+    color: white;
+    border: 1px solid #ccc; /* Borda dos links */
+    border-radius: 5px; /* Borda arredondada */
+    background-color: #A91528 !important;
+    transition: background-color 0.3s, color 0.3s; /* Transição suave de cores */
+}
+
+/* Estilo de hover para os links */
+.outras_opcoes a:hover {
+    background-color: #750b1a; /* Cor de fundo ao passar o mouse */
+    color: white; /* Cor do texto ao passar o mouse */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo do formulário de filtro */
+form {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 8px 16px;
+    background-color: #A91528;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: white;
+    color: black
+}
+
+/* Estilo da tabela de inscrições */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table td {
+    background-color: #fff;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Estilo dos links de exportação */
+.export-links {
+    margin-top: 20px;
+}
+
+.export-links a {
+    padding: 8px 16px;
+    background-color: #A91528;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.export-links a:hover {
+    background-color: #750b1a;
+}
+
+/* Estilo do rodapé */
+footer {
+    height: 50px;
+    background-color: #A91528;
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.rodape {
+    color: white;
+    text-align: center;
+}
